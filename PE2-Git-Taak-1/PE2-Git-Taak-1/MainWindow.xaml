@@ -8,6 +8,6 @@
         Title="MainWindow" Height="450" Width="800"
         Background="#58A518">
     <Grid>
-
+        <TextBlock><Image Source="assets/logo_pxl_digital.png" Height="75" Width="185"></Image></TextBlock>
     </Grid>
 </Window>
