@@ -9,5 +9,6 @@
         Background="#58A518">
     <Grid>
         <TextBlock><Image Source="assets/logo_pxl_digital.png" Height="75" Width="185"></Image></TextBlock>
+        <Label Content="&#x9;PXL MovieDB" HorizontalAlignment="Left" Margin="231,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.333,-0.579" Width="533" FontSize="36" BorderBrush="Black" BorderThickness="2"/>
     </Grid>
 </Window>
