@@ -8,17 +8,24 @@
         Title="MainWindow" Height="450" Width="800"
         Background="#58A518">
     <Grid>
-        <TextBlock><Image Source="assets/logo_pxl_digital.png" Height="75" Width="185"></Image></TextBlock>
+        <TextBlock><Image Source="/logo_pxl_digital.png" Height="75" Width="185"></Image></TextBlock>
         <Label Content="&#x9;PXL MovieDB" HorizontalAlignment="Left" Margin="231,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.333,-0.579" Width="533" FontSize="36" BorderBrush="Black" BorderThickness="2"/>
-        
-        <Button Margin="50,110,604,110" MouseDoubleClick="Dune_Click">
-            <Image x:Name="Dune2" Source="assets/dune2.jpg"></Image>
+
+        <Button x:Name="Dune2" Margin="50,110,604,110">
+            <Button.Content>
+                <Image Source="/dune2.jpg" MouseLeftButtonDown="Dune2_Click"></Image>
+            </Button.Content>
         </Button>
-        <Button Margin="618,110,36,110" MouseDoubleClick="TheSubstance_Click">
-            <Image x:Name="TheSubstance" Source="assets/thesubstance.jpg"></Image>
+        <Button x:Name="TheSubstance" Margin="618,110,36,110">
+            <Button.Content>
+                <Image Source="/thesubstance.jpg" MouseLeftButtonDown="TheSubstance_Click"></Image>
+            </Button.Content>
         </Button>
-        <Button Margin="327,109,327,110" MouseDoubleClick="Furiosa_Click">
-            <Image x:Name="Furiosa" Source="assets/furiosa.jpg"></Image>
+        <Button x:Name="Furiosa" Margin="327,109,327,110">
+            <Button.Content>
+                <Image Source="/furiosa.jpg" MouseLeftButtonDown="Furiosa_Click"></Image>
+            </Button.Content>
         </Button>
+        <TextBlock x:Name="MovieTextBlock" HorizontalAlignment="Left" Margin="50,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="714" RenderTransformOrigin="0.497,-0.032" FontSize="18"/>
     </Grid>
 </Window>
